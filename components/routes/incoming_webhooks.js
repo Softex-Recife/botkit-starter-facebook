@@ -26,6 +26,8 @@ module.exports = function(webserver, controller) {
             } else {
                 res.send('OK');
             }
+        } else {
+            res.send('NOK');
         }
     });
 
